@@ -1,0 +1,46 @@
+# =========================
+# Build artifacts
+# =========================
+app
+/obj/
+/build/
+/bin/
+
+# Object and dependency files
+*.o
+*.d
+
+# =========================
+# Debug / profiling output
+# =========================
+*.out
+*.log
+*.prof
+*.gch
+*.gcda
+*.gcno
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# =========================
+# OS-specific junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# CMake (if added later)
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
